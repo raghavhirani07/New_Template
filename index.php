@@ -3,7 +3,7 @@
 <div id="main-content">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8"> 
                 <!-- post-container -->
                 <div class="post-container">
                     <?php
@@ -52,6 +52,7 @@
                                     <?php echo  substr($row['description'],0,130). "...." ?>
                                     </p>
                                     <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
+                                    <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -96,3 +97,4 @@
     </div>
 </div>
 <?php include 'footer.php'; ?>
+<!-- Good file -->
