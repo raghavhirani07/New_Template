@@ -52,7 +52,7 @@
                                     <?php echo  substr($row['description'],0,130). "...." ?>
                                     </p>
                                     <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
-                                    <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                                     $limit=3;
                                     $totalpage=ceil($totalrecode/$limit);
                                     if($page > 1){
-                                    echo '<li><a href="post.php?page='.($page - 1).'">Pre</a></li>';
+                                    echo '<li><a href="index.php?page='.($page - 1).'">Pre</a></li>';
                                     }
                                     for($i;$i <=$totalpage;$i++)
                                     {
@@ -81,10 +81,10 @@
                                         else{
                                             $active="";
                                         }
-                                        echo '<li class="'.$active.'"><a href="post.php?page='.$i.' ">'.$i.'</a></li>';
+                                        echo '<li class="'.$active.'"><a href="index.php?page='.$i.' ">'.$i.'</a></li>';
                                     }
                                     if($page < $totalpage){
-                                        echo '<li><a href="post.php?page='.($page + 1).'">next</a></li>';
+                                        echo '<li><a href="index.php?page='.($page + 1).'">next</a></li>';
                                         }
                                     echo'</ul>';
                                 }
@@ -97,4 +97,4 @@
     </div>
 </div>
 <?php include 'footer.php'; ?>
-<!-- Good file -->
+
