@@ -3,7 +3,7 @@
 <div id="main-content">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8"> 
                 <!-- post-container -->
                 <div class="post-container">
                     <?php
@@ -96,3 +96,4 @@
     </div>
 </div>
 <?php include 'footer.php'; ?>
+<!-- Good file -->
