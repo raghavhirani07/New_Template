@@ -52,6 +52,7 @@
                                     <?php echo  substr($row['description'],0,130). "...." ?>
                                     </p>
                                     <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
+                                    <a class='read-more pull-right' href='single.php?id=<?php echo $row['post_id']; ?>'>Read more</a>
                                 </div>
                             </div>
                         </div>
